@@ -12,15 +12,27 @@ end
 
 
 if ARGV[0] == '-h'
-  puts 'this goes the help page'
+  puts '  -h',
+       '        Help page',
+       '  -d',
+       '        Distro name',
+       '        Accepted distros: arch, debian'
+
 elsif ARGV[0] == '-d' and ARGV[1] == 'debian'
   puts 'we are going to install pacjages for debian distro'
   installation('apt-get install')
+
 elsif ARGV[0] == '-d' and ARGV[1] == 'arch'
   puts 'we are going to install pacjages for arch distro'
   installation('pacman -S')
+
 elsif ARGV.empty?
-  puts 'help page also goes here'
+  puts '  -h',
+       '        Help page',
+       '  -d',
+       '        Distro name',
+       '        Accepted distros: arch, debian'
+
 else
   puts "install: invalid option -- '#{ARGV[0]}'","Try 'ruby install.rb -h' for more information."
 end
