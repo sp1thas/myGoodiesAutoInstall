@@ -27,6 +27,9 @@ For Arch based run:
 
 `ruby install.rb -d arch`
 
+### Demo
+[![asciicast](https://asciinema.org/a/15sgx0vb21bxi75teefl6itho.png)](https://asciinema.org/a/15sgx0vb21bxi75teefl6itho)
+
 ### Contributing
 Fork this repo and add your favorite programms!
 
