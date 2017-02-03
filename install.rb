@@ -5,7 +5,9 @@ def installation ( packageManager )
   puts 'Do you want to install some basic programms? [y/n]'
   choise = STDIN.gets.chomp
   if choise == 'y' or choise == 'Y'
-    basicPrograms = 'filezila keepassx'
+    basicPrograms = 'filezilla keepassx python-pip zsh gimp git imagemagick '
+    basicPrograms += 'keybase mpv redshift terminator texlive-bin   texlive-core '
+    basicPrograms += 'texlive-langgreek texstudio unrar vim'
     exec"sudo #{packageManager} #{basicPrograms}"
   end
 end
