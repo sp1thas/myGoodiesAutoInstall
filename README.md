@@ -5,7 +5,7 @@ a simple ruby script which automatically installs some programs. This script is 
 
 ### Auto Build and Run
 
-`wget https://raw.githubusercontent.com/sp1thas/myGoodiesAutoInstall/master/run.sh; sh run.sh`
+`wget https://raw.githubusercontent.com/sp1thas/myGoodiesAutoInstall/master/run.sh ; sh run.sh`
 
 ### Manual Installation
 1. `git clone https://github.com/sp1thas/myGoodiesAutoInstall.git && cd myGoodiesAutoInstall`
