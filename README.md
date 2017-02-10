@@ -2,6 +2,12 @@
 a simple ruby script which automatically installs some programs. This script is usefull after a clean format because it can saves some time. Try it!
 
 ## Install... to install
+
+### Auto Build and Run
+
+`wget https://raw.githubusercontent.com/sp1thas/myGoodiesAutoInstall/master/run.sh; sh run.sh`
+
+### Manual Installation
 1. `git clone https://github.com/sp1thas/myGoodiesAutoInstall.git && cd myGoodiesAutoInstall`
 2. For Arch: `ruby install.rb -d arch`
 
