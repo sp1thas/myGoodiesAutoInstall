@@ -1,13 +1,12 @@
 # Installation script
 
-# exec'ls'
 def installation ( packageManager )
   puts 'Do you want to install some basic programms? [y/n]'
   choise = STDIN.gets.chomp
   if choise == 'y' or choise == 'Y'
-    basicPrograms = 'filezilla keepassx python-pip zsh gimp git imagemagick '
-    basicPrograms += 'keybase mpv redshift terminator texlive-bin   texlive-core '
-    basicPrograms += 'texlive-langgreek texstudio unrar vim'
+    basicPrograms = 'filezilla keepassx python-pip zsh gimp git imagemagick python3-pip'
+    basicPrograms += 'keybase mpv redshift terminator texlive-bin texlive-core '
+    basicPrograms += 'texlive-langgreek texstudio unrar vim xclip git'
     exec"sudo #{packageManager} #{basicPrograms}"
   end
 end
